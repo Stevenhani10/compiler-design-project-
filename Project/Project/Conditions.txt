@@ -1,0 +1,27 @@
+Identifiers:
+
+Identifiers -> variable
+
+Variable:
+
+[Identifiers = ; ( Operator ,] <- variable -> [= ; ( ) Operator ,]
+
+=:
+
+[variable )] <- = -> [variable ( integer string]
+
+Operator:
+
+[variable integer )] <-Operator-> [variable ( integer]
+
+;:
+
+[variable integer string)] <- ;
+
+Integer:
+
+[Operator = Error]<- Integer -> [Operator ;  Error]
+
+string
+
+[= Error]<- string -> [;  Error]
